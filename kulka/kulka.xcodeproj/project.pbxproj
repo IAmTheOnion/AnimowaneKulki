@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86F855B29DDAFC700159457 /* kulkaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F855A29DDAFC700159457 /* kulkaApp.swift */; };
+		B86F855D29DDAFC700159457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F855C29DDAFC700159457 /* ContentView.swift */; };
+		B86F855F29DDAFC800159457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86F855E29DDAFC800159457 /* Assets.xcassets */; };
+		B86F856229DDAFC800159457 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86F856129DDAFC800159457 /* Preview Assets.xcassets */; };
+		B86F856C29DDAFC800159457 /* kulkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F856B29DDAFC800159457 /* kulkaTests.swift */; };
+		B86F857629DDAFC800159457 /* kulkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F857529DDAFC800159457 /* kulkaUITests.swift */; };
+		B86F857829DDAFC800159457 /* kulkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F857729DDAFC800159457 /* kulkaUITestsLaunchTests.swift */; };
+		B86F858729DDB00800159457 /* ballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F858629DDB00800159457 /* ballView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B86F856829DDAFC800159457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86F854F29DDAFC700159457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86F855629DDAFC700159457;
+			remoteInfo = kulka;
+		};
+		B86F857229DDAFC800159457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86F854F29DDAFC700159457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86F855629DDAFC700159457;
+			remoteInfo = kulka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B86F855729DDAFC700159457 /* kulka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kulka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86F855A29DDAFC700159457 /* kulkaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kulkaApp.swift; sourceTree = "<group>"; };
+		B86F855C29DDAFC700159457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B86F855E29DDAFC800159457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86F856129DDAFC800159457 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B86F856729DDAFC800159457 /* kulkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kulkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86F856B29DDAFC800159457 /* kulkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kulkaTests.swift; sourceTree = "<group>"; };
+		B86F857129DDAFC800159457 /* kulkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kulkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86F857529DDAFC800159457 /* kulkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kulkaUITests.swift; sourceTree = "<group>"; };
+		B86F857729DDAFC800159457 /* kulkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kulkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B86F858629DDB00800159457 /* ballView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B86F855429DDAFC700159457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86F856429DDAFC800159457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86F856E29DDAFC800159457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86F854E29DDAFC700159457 = {
+			isa = PBXGroup;
+			children = (
+				B86F855929DDAFC700159457 /* kulka */,
+				B86F856A29DDAFC800159457 /* kulkaTests */,
+				B86F857429DDAFC800159457 /* kulkaUITests */,
+				B86F855829DDAFC700159457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B86F855829DDAFC700159457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B86F855729DDAFC700159457 /* kulka.app */,
+				B86F856729DDAFC800159457 /* kulkaTests.xctest */,
+				B86F857129DDAFC800159457 /* kulkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86F855929DDAFC700159457 /* kulka */ = {
+			isa = PBXGroup;
+			children = (
+				B86F855A29DDAFC700159457 /* kulkaApp.swift */,
+				B86F855C29DDAFC700159457 /* ContentView.swift */,
+				B86F858629DDB00800159457 /* ballView.swift */,
+				B86F855E29DDAFC800159457 /* Assets.xcassets */,
+				B86F856029DDAFC800159457 /* Preview Content */,
+			);
+			path = kulka;
+			sourceTree = "<group>";
+		};
+		B86F856029DDAFC800159457 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B86F856129DDAFC800159457 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B86F856A29DDAFC800159457 /* kulkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B86F856B29DDAFC800159457 /* kulkaTests.swift */,
+			);
+			path = kulkaTests;
+			sourceTree = "<group>";
+		};
+		B86F857429DDAFC800159457 /* kulkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B86F857529DDAFC800159457 /* kulkaUITests.swift */,
+				B86F857729DDAFC800159457 /* kulkaUITestsLaunchTests.swift */,
+			);
+			path = kulkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B86F855629DDAFC700159457 /* kulka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86F857B29DDAFC800159457 /* Build configuration list for PBXNativeTarget "kulka" */;
+			buildPhases = (
+				B86F855329DDAFC700159457 /* Sources */,
+				B86F855429DDAFC700159457 /* Frameworks */,
+				B86F855529DDAFC700159457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kulka;
+			productName = kulka;
+			productReference = B86F855729DDAFC700159457 /* kulka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B86F856629DDAFC800159457 /* kulkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86F857E29DDAFC800159457 /* Build configuration list for PBXNativeTarget "kulkaTests" */;
+			buildPhases = (
+				B86F856329DDAFC800159457 /* Sources */,
+				B86F856429DDAFC800159457 /* Frameworks */,
+				B86F856529DDAFC800159457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86F856929DDAFC800159457 /* PBXTargetDependency */,
+			);
+			name = kulkaTests;
+			productName = kulkaTests;
+			productReference = B86F856729DDAFC800159457 /* kulkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B86F857029DDAFC800159457 /* kulkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86F858129DDAFC800159457 /* Build configuration list for PBXNativeTarget "kulkaUITests" */;
+			buildPhases = (
+				B86F856D29DDAFC800159457 /* Sources */,
+				B86F856E29DDAFC800159457 /* Frameworks */,
+				B86F856F29DDAFC800159457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86F857329DDAFC800159457 /* PBXTargetDependency */,
+			);
+			name = kulkaUITests;
+			productName = kulkaUITests;
+			productReference = B86F857129DDAFC800159457 /* kulkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86F854F29DDAFC700159457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B86F855629DDAFC700159457 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B86F856629DDAFC800159457 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B86F855629DDAFC700159457;
+					};
+					B86F857029DDAFC800159457 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B86F855629DDAFC700159457;
+					};
+				};
+			};
+			buildConfigurationList = B86F855229DDAFC700159457 /* Build configuration list for PBXProject "kulka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86F854E29DDAFC700159457;
+			productRefGroup = B86F855829DDAFC700159457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86F855629DDAFC700159457 /* kulka */,
+				B86F856629DDAFC800159457 /* kulkaTests */,
+				B86F857029DDAFC800159457 /* kulkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B86F855529DDAFC700159457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86F856229DDAFC800159457 /* Preview Assets.xcassets in Resources */,
+				B86F855F29DDAFC800159457 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86F856529DDAFC800159457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86F856F29DDAFC800159457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B86F855329DDAFC700159457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86F855D29DDAFC700159457 /* ContentView.swift in Sources */,
+				B86F855B29DDAFC700159457 /* kulkaApp.swift in Sources */,
+				B86F858729DDB00800159457 /* ballView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86F856329DDAFC800159457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86F856C29DDAFC800159457 /* kulkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86F856D29DDAFC800159457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86F857629DDAFC800159457 /* kulkaUITests.swift in Sources */,
+				B86F857829DDAFC800159457 /* kulkaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B86F856929DDAFC800159457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86F855629DDAFC700159457 /* kulka */;
+			targetProxy = B86F856829DDAFC800159457 /* PBXContainerItemProxy */;
+		};
+		B86F857329DDAFC800159457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86F855629DDAFC700159457 /* kulka */;
+			targetProxy = B86F857229DDAFC800159457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B86F857929DDAFC800159457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B86F857A29DDAFC800159457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B86F857C29DDAFC800159457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kulka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kacper.kulka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B86F857D29DDAFC800159457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kulka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kacper.kulka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B86F857F29DDAFC800159457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kacper.kulkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kulka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kulka";
+			};
+			name = Debug;
+		};
+		B86F858029DDAFC800159457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kacper.kulkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kulka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kulka";
+			};
+			name = Release;
+		};
+		B86F858229DDAFC800159457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kacper.kulkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kulka;
+			};
+			name = Debug;
+		};
+		B86F858329DDAFC800159457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kacper.kulkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kulka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B86F855229DDAFC700159457 /* Build configuration list for PBXProject "kulka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86F857929DDAFC800159457 /* Debug */,
+				B86F857A29DDAFC800159457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86F857B29DDAFC800159457 /* Build configuration list for PBXNativeTarget "kulka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86F857C29DDAFC800159457 /* Debug */,
+				B86F857D29DDAFC800159457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86F857E29DDAFC800159457 /* Build configuration list for PBXNativeTarget "kulkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86F857F29DDAFC800159457 /* Debug */,
+				B86F858029DDAFC800159457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86F858129DDAFC800159457 /* Build configuration list for PBXNativeTarget "kulkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86F858229DDAFC800159457 /* Debug */,
+				B86F858329DDAFC800159457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B86F854F29DDAFC700159457 /* Project object */;
+}
